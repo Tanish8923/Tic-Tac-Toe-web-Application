@@ -42,7 +42,6 @@ const checkWinner = () =>{
                 for(let box of boxes){
                     box.disabled = true
                 }
-                // winPage();
                 winPage.classList.remove("hide");
             }
         }
